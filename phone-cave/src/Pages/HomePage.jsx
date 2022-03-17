@@ -54,7 +54,7 @@ const HomePage = () => {
             </Container>
 
             :
-            <Container>
+            <Container style={{ margin: "45%" }} >
                 <Spinner animation="border" role="status">
                     <span className="visually-hidden">Loading...</span>
                 </Spinner>
